@@ -25,7 +25,7 @@ public class MediaEscolar {
 		
 		media = totalNotas / qtdNotas;
 		
-		System.out.printf("\n o novo salario é %.1f ", media);
+		System.out.printf("\n A média final é %.1f ", media);
 		
 		
 		
