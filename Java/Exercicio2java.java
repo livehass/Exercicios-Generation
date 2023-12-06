@@ -1,8 +1,8 @@
-package TesteJava;
+package exercicios_java;
 
 import java.util.Scanner;
 
-public class Exercicio2java {
+public class MediaEscolar {
 
 	public static void main(String[] args) {
 		
