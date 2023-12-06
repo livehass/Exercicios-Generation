@@ -5,9 +5,8 @@ import java.util.Scanner;
 public class MediaEscolar {
 
 	public static void main(String[] args) {
-		
+	
 		Scanner leia = new Scanner(System.in);
-		
 		float nota, media, totalNotas = 0;
 		int qtdNotas;
 		
@@ -16,15 +15,10 @@ public class MediaEscolar {
 
 		for(int i = 1; i <= qtdNotas; i++) {
 			System.out.println("Digite a " + i + "° Nota");
-			
 			nota = leia.nextFloat();
-			
 			totalNotas += nota;
 		}
-		
-		
 		media = totalNotas / qtdNotas;
-		
 		System.out.printf("\n A média final é %.1f ", media);
 		
 		
