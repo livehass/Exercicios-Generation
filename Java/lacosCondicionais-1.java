@@ -2,7 +2,7 @@ package exerciciosjava;
 
 import java.util.Scanner;
 
-public class lacosDeCondicao {
+public class lacosDeCondicao1 {
 
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
