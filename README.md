@@ -1,2 +1,2 @@
-# Exercicios-Generation
-Exercicios da generation
+# Exercicios Generation Java Fullstack
+Exercicios da generation generation.org
