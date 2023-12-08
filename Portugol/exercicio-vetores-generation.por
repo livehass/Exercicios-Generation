@@ -2,7 +2,6 @@ programa
 {
  
   funcao inicio() {
-
   inteiro numero[10], x, soma = 0, media
   
   para(x = 0; x < 10; x++){
