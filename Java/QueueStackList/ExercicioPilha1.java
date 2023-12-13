@@ -12,6 +12,7 @@ public class ExercicioPilha1 {
 		int op;
 
 		do {
+
 			System.out.println("-----------------------------------");
 			System.out.println("\n1- Adicionar livro a pilha ");
 			System.out.println("\n2- listar todos os livros ");
@@ -44,12 +45,7 @@ public class ExercicioPilha1 {
 					System.out.println("A Pilha está vazia");
 					break;
 				}
-				System.out.println("Digite o livro a ser removido");
-				String removido;
-				sc.nextLine();
-				removido = sc.nextLine();
-				pilha.remove(removido);
-				System.out.println("O livro foi removido da lista!");
+				System.out.println(pilha.pop() +" O livro foi removido da lista!");
 				break;
 			case 0:
 				System.out.println("Programa finalizado!");
